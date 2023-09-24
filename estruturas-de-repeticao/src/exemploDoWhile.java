@@ -4,7 +4,12 @@ import java.util.Random;
 public class exemploDoWhile {
     
     public static void main(String[] args) {
-         
+         System.out.println("Discando...");
+
+         do {
+            System.out.println("Telefone tocando");
+         } while ( tocando());
+
     }
 
     private static boolean tocando(){
@@ -14,5 +19,3 @@ public class exemploDoWhile {
         return ! atendeu;
     }
 }
-
-
