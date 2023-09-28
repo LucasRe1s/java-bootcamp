@@ -15,7 +15,7 @@ public class EquilibrandoSaldo {
             System.out.println("Saldo atualizado na conta: " + saldoAtualizado);
             
         } catch (Exception e) {
-            // TODO: handle exception
+            
             System.out.println(e);
         }
 
